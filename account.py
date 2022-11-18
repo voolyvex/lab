@@ -1,5 +1,4 @@
 
-
 class Account:
     def __init__(self, name: str) -> None:
         """
@@ -7,7 +6,7 @@ class Account:
         :param name: Account name.
         """
         self.__account_name = name
-        self.__account_balance: float = 0
+        self.__account_balance = 0
     
     def deposit(self, amount: float) -> bool:
         """
